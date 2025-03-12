@@ -1,0 +1,37 @@
+name: AI_Project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - seaborn
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - matplotlib-inline
+  - black
+  - flake8
+  - pylint
+  - aiohttp
+  - lz4-c              # Mac-compatible library
+  - libiconv           # [osx] Specific to macOS
+  - openssl>=3.0       # Ensure SSL compatibility
+  - cryptography
+  - six
+  - attrs
+  - click
+  - joblib
+  - tqdm
+  - requests
+  - setuptools
+  - pip
+  - pyqt               # Remove `pywinpty` and Windows-specific dependencies
+  - pyzmq
+  - pycparser
+  - pyyaml
